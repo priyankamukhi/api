@@ -8,14 +8,11 @@ using webapi.Models;
 
 namespace webapi.Controllers
 {
-    public class webapiController : ApiController
+    public class WebapiController : ApiController
     {
-        IList<webapi> webapi = new List<webapi>[]
-        {
-            new webapi{ }
+        webapi[] Webapis = new webapi[];
 
-        }
+     }
 
-    
 }
 
